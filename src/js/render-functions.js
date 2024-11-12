@@ -1,3 +1,6 @@
+import iziToast from 'izitoast';
+import 'izitoast/dist/css/iziToast.min.css';
+
 export function createGalleryMarkup(images) {
   const galleryContainer = document.querySelector('.image-gallery');
   galleryContainer.innerHTML = images
